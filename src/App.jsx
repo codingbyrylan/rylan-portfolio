@@ -111,6 +111,36 @@ export default function App() {
           <p className="text-sm">437-869-2641</p>
         </div>
       </section>
+
+      <section id="education" className="max-w-3xl mx-auto py-16 px-6">
+        <motion.h3 className="text-2xl font-bold mb-4" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>Education</motion.h3>
+        <ul className="space-y-4 text-sm sm:text-base">
+          <li>
+            <strong>Ontario Graduate Certificate – Cloud Computing for Big Data</strong><br />
+            Humber College, Canada (2023–2024)
+          </li>
+          <li>
+            <strong>Ontario Graduate Certificate – Information Systems Business Analysis</strong><br />
+            George Brown College, Canada (2024–2025)
+          </li>
+          <li>
+            <strong>Bachelor of Science in Information Technology</strong><br />
+            Mumbai University, India (2020–2023)
+          </li>
+        </ul>
+      </section>
+
+      <section id="documents" className="bg-gray-100 dark:bg-gray-800 py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <motion.h3 className="text-2xl font-bold mb-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>Documents</motion.h3>
+          <div className="flex flex-col items-center space-y-4">
+            <a href="https://drive.google.com/file/d/1ASmz-q7ZSpYQHREjhXFNkMrsjf23_956/view?usp=share_link" target="_blank" className="text-blue-600 hover:underline">📄 Resume (PDF)</a>
+            <a href="https://drive.google.com/file/d/1Qm-THHzzITxK9oTAeadKqPf1q8iLkKcf/view?usp=share_link" target="_blank" className="text-blue-600 hover:underline">📄 Humber College Transcript – Cloud Computing</a>
+            <a href="https://drive.google.com/file/d/124nuBeds_KEkUyKZISKXlhyIzlt9f_AL/view?usp=share_link" target="_blank" className="text-blue-600 hover:underline">📄 George Brown Transcript – Business Analysis</a>
+            <a href="https://drive.google.com/file/d/17WZwLdtGGqyPl7UPHhlKHKfpbOwd4nzg/view?usp=share_link" target="_blank" className="text-blue-600 hover:underline">📄 WES Credential Evaluation – BSc IT</a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
